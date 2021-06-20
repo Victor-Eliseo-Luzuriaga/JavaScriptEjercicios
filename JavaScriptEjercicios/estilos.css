@@ -1,0 +1,52 @@
+html {
+    font-size: 16px;
+  }
+
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: rgb(51, 153, 153);
+    border-radius: 10px;
+  }
+
+  h1{
+      color: rgb(55, 212, 55);
+      font-family: monospace;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px orange,
+      2px 2px 1px orange;
+      text-align: center;
+      background-color: rosybrown;
+
+
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: rgb(28, 214, 189);
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    background-color: peru;
+    background-repeat: no-repeat;
+    width: 30%;
+
+  }
+
+  p::first-line{
+    word-spacing: 4px;
+  }
+
+  button{
+      float: left;
+      width: 20%;
+      background-color: skyblue;
+  }
+
+  #valor{
+      float: center;
+  }
